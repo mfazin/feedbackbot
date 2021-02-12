@@ -5,10 +5,10 @@ class Translation(object):
 
       RULES = Config.RULES
 
-      LOGIN = """Only for admins for receiving feedbacks"""
+      LOGIN = """Sorry, It's admin Command"""
 
 
-      ABOUT = """**MY DETAILS:**
+      ABOUT = """**Info About Me:**
 
 ```🤖My Name:``` [Feedback Ns Bot](https://t.me/Feedback_Nsbot)
     
