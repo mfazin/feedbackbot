@@ -1,26 +1,20 @@
 from config import Config
 
 class Translation(object):
-      START = str(Config.START) + "\n\nFor source code [press me](https://github.com/Ns-AnoNymouS/feedbackbot)"
+      START = str(Config.START) + "\n\nFor know more about me, hit /about."
 
       RULES = Config.RULES
 
       LOGIN = """Sorry, It's admin Command"""
 
 
-      ABOUT = """**Info About Me:**
+      ABOUT = """**❗️Info About Me❗️:**
 
 ```🤖My Name:``` [Feedback Ns Bot](https://t.me/Feedback_Nsbot)
     
 ```📝 Language:``` [Python 3](https://www.python.org/)
-
-```🧰 Framework:``` [Pyrogram](https://github.com/pyrogram/pyrogram)
-
-```👨🏻‍💻 Developer:``` [𝐀𝐧𝐨𝐧𝐲𝐦𝐨𝐮𝐬](https://t.me/Ns_AnoNymouS)
                
-```📢 Channel:``` [NS BOT UPDATES](https://t.me/Ns_bot_updates)
+```📢 Channel:``` [NS BOT UPDATES](https://t.me/ekbotz_update)
 
-```👥 Group:``` [Ns BOT SUPPORT](https://t.me/Ns_Bot_supporters)
-
-Inspired By @stemlime_bot
+```👥 Group:``` [Ns BOT SUPPORT](https://t.me/ekbotz_support)
 """
