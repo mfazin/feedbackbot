@@ -10,7 +10,7 @@ class Translation(object):
 
       ABOUT = """**❗️Info About Me❗️:**
 
-```🤖My Name:``` [Feedback Ns Bot](https://t.me/Feedback_Nsbot)
+```🤖My Name:``` [Feedback EK Bot](https://t.me/Feedback_Nsbot)
     
 ```📝 Language:``` [Python 3](https://www.python.org/)
                
