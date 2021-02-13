@@ -17,11 +17,12 @@ async def text(c, m):
             await m.reply_text(text="From now you will receive feedbacks. Untill this bot restart.  If you want to get feedbacks permanently add your id in config vars")
          if m.text != Config.PASS:
             Config.LOGIN.remove(m.from_user.id)
-            await m.reply_text(text="**Incorrect Password ⚠️**", parse_mode="markdown")
+            await m.reply_text(text="**Incorrect Password ⚠️. I Guess You Are Not Admin.**", parse_mode="markdown")
       if m.from_user.id in Config.feedback:
          button = [[
-                   InlineKeyboardButton("Yes", callback_data="yes"),
-                   InlineKeyboardButton("No", callback_data="cancel")
+                   InlineKeyboardButton("Yep ✔️", callback_data="yes"),
+                   InlineKeyboardButton("Nop ✖️", callback_data="cancel")
+                   InlineKeyboardButton("Home 🏘", callback_data="start")
                   ]]
          markup = InlineKeyboardMarkup(button)
          await m.reply_text(text="Are you sure to send this feedback",
